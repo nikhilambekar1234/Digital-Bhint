@@ -1,0 +1,74 @@
+@charset "UTF-8";
+ .inner
+ {
+  padding:20px;
+  background-image: url(./admin.jpg);
+  width:1368px;
+  height:555px;
+  margin:auto;
+  display:flex;
+ }
+ 
+ .inner h3
+ {
+  text-transform:uppercase;
+  color:indianred;
+  font-size:25px;
+  text-align:center;
+  margin-bottom:28px;
+  
+ }
+ .form-group
+ {
+   display:flex;
+   
+ }
+ .form-group input
+ {
+   width:50%;
+ }
+ 
+ .form-wrapper
+ {
+ position:relative;
+ }
+ .form-control
+ {
+ 
+ border:none;
+ border-bottom:1px solid #0000a0;
+ width:400px;
+ height:30px;
+ padding-right:0;
+ margin-bottom:25px;
+ }
+
+ button
+ {
+ 
+ width;140px;
+ height:40px;
+ margin:auto;
+ marging-top:0px;
+ cursor:pointer;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ padding-left:0;
+ background:#000040;
+ font-size:18px;
+ color:#ff80ff;
+ }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

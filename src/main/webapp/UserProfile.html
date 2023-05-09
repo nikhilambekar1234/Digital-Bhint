@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="AdminDashbordStyle.css" />
+    <link rel="stylesheet" href="Registyle1.css">
+</head>
+<body>
+<div class="menu-bar">
+      <h1 class="logo">3R <img src="logo1.jpg" alt="image" width=60px height=60px></h1>
+      <ul>
+        
+       
+        <li><a href="#">Buy <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+                <ul>
+                       <a href="https://www.amazon.com/">Amazon</a>
+                 </ul>
+                 
+                 <ul>
+                       <a href="https://www.Flipkart.com/">Flipkart</a>
+                 </ul>
+                 
+                 <ul>
+                       <a href="https://www.myntra.com/">Myntra</a>
+                 </ul>
+                 
+               <ul>
+                  <a href="https://www.shoppersstop.com/">Shoppers stop</a>
+               </ul>
+               
+               <ul>
+                  <a href="https://www.shopclues.com/">Shopclues</a>
+               </ul>
+               
+            </div>
+       </li>
+        
+         <li><a href="#">Welcome User... <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="LogoutServlet">Logout</a></li>
+               </ul>
+            </div>
+         </li>
+      </ul>
+</div>
+<div class="inner">
+          
+          <form action="OrderSaveServlet" method="post">
+                <h3>Request to Buy our Item </h3>
+                <div class="form-group">
+                     <input type="text" placeholder="First Name" name="FirstName" class="form-control">
+                     <input type="text" placeholder="Last Name" name="LastName" class="form-control">
+                </div>
+                <div class="form-wrapper">
+                     <input type="text" placeholder="Mobile Number" name="MobileNumber" class="form-control">
+                </div>
+                <div class="form-wrapper">
+                     <input type="text" placeholder="Date"  name="Email" class="form-control">
+                </div>
+                <div class="form-wrapper">
+                     <select name="Gender" id="" class="form-control">
+                     <option value="" disabled selected>Number of Items</option>
+                     <option value="10+">10+</option>
+                     <option value="15+">15+</option>
+                      <option value="20+">20+</option>
+                     </select>
+                </div>
+                <div class="form-wrapper">
+                     <input type="text" placeholder="City" name="City" class="form-control">
+                </div>
+                 <div class="form-wrapper">
+                     <select name="Password" id="" class="form-control">
+                     <option value="" disabled selected>Dealer</option>
+                     <option value="Hanumant Jagtap">Hanumant Jagtap (Wagholi Pune)</option>
+                     <option value="Chaitan Patil">Chaitan Patil(Kharadi Pune)</option>
+                     </select>
+                </div>
+               
+                
+                <button>Register</button>
+          </form>
+     </div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"href="style1.css">
+<link rel="stylesheet" href="AdminLoginstyle.css">
+  <style type="text/css">
+  h2
+  {
+  color:skyblue;
+  }
+ ::placeholder{
+    color: red;
+    font-family: Arial;
+}
+  </style>
+</head>
+<body>
+
+<div class="main">
+ 
+        <div class="navbar">
+            <div class="icon">
+                  <img alt="image not present" src="logo1.jpg" height="80" width="80">
+                  <h2 class="logo">3R</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <input type="checkbox" id="show">
+                    <li><a href="#"> <label for="show" class="">ADMIN</label></a></li>
+                    
+                     
+     
+      <div class="container">
+             
+             <div class="text">Admin Login</div>
+             <form action="AdminLogin">
+                      <div class="data">
+                              <input type="text" placeholder="Your Phone" name="MobileNumber"required>
+                      </div>
+                      <div class="data">
+                              <input type="password" placeholder="Your Password" name="Password"required>
+                       </div>
+                       <div class="btn">
+                           <div class="inner"></div>
+                           <button type="submit">login</button>
+                      </div>
+              </form>
+     </div>
+                    
+                  <!--<li><a href="#">SERVICE</a></li>  -->  
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div> 
+        
+        <div class="content">
+            <h1>Digital   <span>Bhint</span></h1>
+            <p class="par">Reduce,Reuse,Recycle</p>
+           
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <form action="LoginProcess.jsp" method="post">
+                    <input type="text"  placeholder="Enter Mobile Number Here" name="mobileNumber"/><br/>
+                    <input type="password" placeholder="Enter Password Here" name="password"/><br/>
+                    <button type="submit" class="btnn">Login</button>
+                    </form> 
+                    <p class="link">Don't have an account<br>
+                    <a href="Registration.html">Sign up </a> here</a></p>
+               </div>
+           
+        </div>
+        <br><br><br><br><br>
+        <div class="form1">
+                    <h2>Dealer Login</h2><br>
+                    <form action="DealerLogin.jsp" method="get">
+                    <input type="text"  placeholder="Enter Mobile Number" name="mobileNumber"/><br/><br>
+                    <input type="password" placeholder="Enter Password" name="password"/><br/><br>
+                    <button type="submit" class="">Login</button>
+                    </form> 
+                    
+               </div>
+       
+</div>
+
+</body>
+</html>
